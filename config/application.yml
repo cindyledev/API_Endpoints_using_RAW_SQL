@@ -1,0 +1,4 @@
+development:
+  DATABASE_URL: postgres://postgres@localhost/myapp_dev
+test:
+  DATABASE_URL: postgres://postgres@localhost/myapp_test
