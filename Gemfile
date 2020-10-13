@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
 
+gem 'monster-queries', github: 'monsterboxpro/monster-queries'
 gem 'figaro'
 gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

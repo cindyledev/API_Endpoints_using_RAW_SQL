@@ -5,10 +5,6 @@ Rails.application.routes.draw do
   namespace :api do
      get '/test' => 'pages#test' 
      
-     resources :tasks
-     # GET / => tasks#index
-     # GET /new => tasks#create
-     # POST / => tasks#create
-     # PUT /:id => tasks#update
+     resources :tasks, only: [:index]
   end
 end

@@ -1,5 +1,5 @@
 class Api::TasksController < Api::BaseController
   def index
-    render json: true
+    render json: Task.index_json
   end
 end
